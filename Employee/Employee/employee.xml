@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Program</name>
+    </assembly>
+    <members>
+        <member name="F:Employee.Program.id">
+            <summary>
+            The following program demonstrates the use of XML comments
+            Employee class uses constructors to to initialize the ID and
+            name of an employee and then displays them
+            
+            </summary>
+            <remarks>
+            This program uses both parameterized and non-parameterized
+            constructors
+            </remarks>
+            <param name="args"></param>
+            <summary>
+            Integer field to store employee ID
+            </summary>
+        </member>
+        <member name="F:Employee.Program.name">
+            <summary>
+            String field to store the employee name
+            </summary>
+        </member>
+        <member name="M:Employee.Program.#ctor">
+            <param name="args"></param>
+            <summary>
+            construtor initializes id to -1 and name to null
+            </summary>
+            <remarks>
+            <seealso cref="!:XmlDocs(int, string)"> XmlDocs(string, int)</seealso>
+            </remarks>
+        </member>
+        <member name="M:Employee.Program.#ctor(System.Int32,System.String)">
+            <summary>
+            This constructor initializes the id and the name
+            (<paramref name="name"/>, <paramref id="id"/>).
+            </summary>
+            <param name="id">Employee ID</param>
+            <param name="name">Employee Name</param>
+            <param name="args"></param>
+        </member>
+        <member name="M:Employee.Program.Main(System.String[])">
+            <summary>
+            The entry point for the application.
+            <param name="args">A list of command line arguments</param>
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>
